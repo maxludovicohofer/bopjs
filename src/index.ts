@@ -23,7 +23,7 @@ export function Shape<S extends Shape<S>, P extends keyof S>(
   defaults?: Partial<S>
 ) {
   return (description?: Partial<Omit<S, P>>) => {
-    const entity = shape({ ...defaults, ...description });
+    const entity = shape({ ...defaults, ...description } as Partial<S>);
 
     Object.defineProperty(entity, "act", {
       value: ((...intentions) => {
