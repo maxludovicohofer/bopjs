@@ -1,2 +1,3 @@
-# bopjs
-The official Behavior Oriented Programming implementation for javascript
+# BOPjs
+
+Behavior Oriented Programming for JavaScript

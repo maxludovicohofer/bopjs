@@ -1,0 +1,27 @@
+{
+  "name": "bopjs",
+  "version": "0.0.1",
+  "description": "Behavior Oriented Programming for JavaScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxludovicohofer/bopjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxludovicohofer/bopjs/issues"
+  },
+  "homepage": "https://github.com/maxludovicohofer/bopjs#readme",
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
