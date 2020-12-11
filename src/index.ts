@@ -134,7 +134,11 @@ function actionsToIntention<B extends Behavior>(actions: Actions<B>) {
 
 //! Service
 
-export function Service<I extends Shape<S>, S extends I, A extends Behavior>(
+export function Service<
+  I extends Shape<S>,
+  S extends I,
+  A extends Actions<Behavior>
+>(
   initializer: () => I,
   shape: (shape: I) => S,
   behavior: (shape: I) => A,
