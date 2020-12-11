@@ -1,6 +1,6 @@
 {
   "name": "bopjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Behavior Oriented Programming for JavaScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
